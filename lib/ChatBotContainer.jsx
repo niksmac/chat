@@ -16,7 +16,7 @@ const ChatBotContainer = styled.div`
   @media screen and (max-width: 568px) {
     border-radius: ${props => props.floating ? '0' : ''};
     bottom: 0;
-    height: 100%;
+    height: 100vh;
     right: 0;
     width: 100%;
   }

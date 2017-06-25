@@ -112,6 +112,13 @@ const Example = () => (
       {
         id: '18',
         message: 'Awesome, its live. 👏',
+        trigger: '19'
+      },
+      {
+        id: '19',
+        component: (
+          <video src='https://www.w3schools.com/html/mov_bbb.mp4' controls />
+        ),
         end: true
       }
     ]}
