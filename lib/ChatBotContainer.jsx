@@ -10,7 +10,7 @@ const ChatBotContainer = styled.div`
   transform: ${props => props.opened ? 'scale(1)' : 'scale(0)'};
   transform-origin: bottom right;
   transition: transform .3s ease;
-  height: 100vh;
+  height: 99vh;
   position: relative;
 
   @media screen and (max-width: 568px) {

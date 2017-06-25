@@ -44,11 +44,6 @@ const Example = () => (
       {
         id: '7',
         message: 'Choose tags to best describe this video/movie.',
-        options: [
-          { value: 1, label: 'Movie', trigger: '7' },
-          { value: 2, label: 'Documentary', trigger: '7' },
-          { value: 3, label: 'Short Film', trigger: '7' }
-        ],
         trigger: '8'
       },
       {

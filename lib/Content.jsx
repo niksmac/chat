@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Content = styled.div`
-  height: 400px;
+  height: 90vh;
   overflow-y: scroll;
   margin-top: 2px;
   padding-top: 6px;
@@ -9,6 +9,6 @@ const Content = styled.div`
   @media screen and (max-width: 568px) {
     height: ${props => props.floating ? 'calc(100% - 112px)' : ''};
   }
-`;
+`
 
-export default Content;
+export default Content
