@@ -1,5 +1,6 @@
 import React from 'react'
 import ChatBot from '../../../lib/index'
+import FileDropZone from '../../../lib/steps/filedropzone/FileDropZone'
 
 const Example = () => (
   <ChatBot
@@ -15,7 +16,7 @@ const Example = () => (
       },
       {
         id: '2',
-        message: 'What would you like to call this video?',
+        message: 'I will help you monetize the video/movie. What would you like to call this video?',
         trigger: '3'
       },
       {
@@ -25,12 +26,12 @@ const Example = () => (
       },
       {
         id: '4',
-        message: 'Okay. "{previousValue}" is a nice name!',
+        message: 'Cool!. "{previousValue}" is a nice name!',
         trigger: '5'
       },
       {
         id: '5',
-        message: 'What is the typo of this movie/video?',
+        component: <FileDropZone />,
         trigger: '6'
       },
       {
